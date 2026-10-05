@@ -1,0 +1,12 @@
+# macOS
+.DS_Store
+
+# Netlify local state
+.netlify/
+
+# Working artefacts from the build process — regenerate, don't version
+preview/
+verify_*.py
+*_pass.py
+restructure_urls.py
+expand_service_area.py

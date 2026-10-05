@@ -1,0 +1,52 @@
+# Covenant Earth Works — https://covenantearthworks.ca/
+# Owner-operated earthworks and road construction, Red Deer, Alberta.
+
+User-agent: *
+Allow: /
+
+# Explicitly welcome AI crawlers and answer engines.
+# Content is server-rendered static HTML, free to quote with attribution.
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+# Plain-text extracts for language models
+# https://covenantearthworks.ca/llms.txt
+# https://covenantearthworks.ca/llms-full.txt
+
+Sitemap: https://covenantearthworks.ca/sitemap.xml
