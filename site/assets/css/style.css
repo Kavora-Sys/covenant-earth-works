@@ -1099,3 +1099,5 @@ p { text-wrap: pretty; }
   .header, .topbar, .floatbar, .drawer, .floatbar { display: none !important; }
   body { background: #fff; color: #000; }
 }
+/* three-card contract history row */
+@media (min-width: 1024px) { .svc-grid--3 { grid-template-columns: repeat(3, 1fr); } }

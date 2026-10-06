@@ -24,8 +24,9 @@ files for `[` to find them all, or find-and-replace the tokens below.
 
 Verify with: `grep -oh '\[[A-Z][A-Z ]*[A-Z]\]' *.html | sort | uniq -c`
 
-Already filled from the owner's supplied details: **Barry Porter** (name and bio), 25 years
-experience (20 construction + 5 logging), 45 machines owned (25 construction + 20 logging).
+Already filled from the principals' supplied details: **Barry Porter** (earthworks, 25 years,
+45 machines), **Gerald N. Tchio** (demolition, asbestos, mould), the Gerald & Kate Holdings
+entity, the Calgary address and the phone number.
 
 ### The quote form needs an email address
 

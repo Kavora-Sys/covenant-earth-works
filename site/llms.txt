@@ -1,26 +1,79 @@
-# Covenant Earth Works > Owner-operated earthworks, road construction and site preparation contractor based in Red Deer, Alberta, Canada. Serving Red Deer, Rocky View County, Red Deer County, Calgary and Calgary metro. Covenant Earth Works is an earthworks and road construction business founded and operated by **Barry Porter**, who has **25 years of experience across the construction and logging industries**. 20 years in construction, and 5 years working with logging equipment, demolition, grading and operations. Barry owns the fleet outright: **25 construction machines and 20 logging machines** (45 total), maintained in-house. ## What we do **Heavy road and earthworks**
-- Road construction and gravel roads, subgrade, base course, road prism, shoulder pull-back
-- Mass earthmoving and site balancing, cut and fill, stockpiles, haul and place
+# Covenant Earth Works
+
+> Owner-operated earthworks, road construction, demolition and site preparation. A division of Gerald & Kate Holdings, based in Calgary, Alberta.
+
+Covenant Earth Works is an earthworks, demolition and site preparation contractor based in Calgary, Alberta, Canada. It is a division of **Gerald & Kate Holdings**, a newly established company.
+
+The work is run by two operators:
+
+- **Barry Porter** — earthworks and road construction. 25 years of experience across the construction and logging industries: 20 years in construction, 5 years with logging equipment, demolition, grading and operations. Owns a fleet of 45 machines (25 construction, 20 logging), maintained in-house.
+- **Gerald N. Tchio** — demolition and hazardous materials. Interior demolition, complete building demolition, asbestos removal, mould remediation and foundation excavation.
+
+**Phone:** (368) 887-3947
+**Address:** Unit 3617, 3800 Block 19 Ave SE, Calgary, Alberta, Canada
+
+## Services
+
+### Division 1 — Heavy road and earthworks
+- Road construction and gravel roads
+- Mass earthmoving and site balancing
 - Industrial pads and hardstands
 - Bulk clearing and grubbing
-- Subgrade and base compaction with GPS / machine-control grading
-- Lease roads and access **Residential and commercial site work**
+- Subgrade and base compaction
+- Lease roads and access
+
+### Division 2 — Residential and commercial site work
 - Site preparation and rough grade
 - Final and fine grading
 - Driveways, approaches and culverts
-- Drainage and water management, swales, catch basins, retention
+- Drainage and water management
 - Trenching and underground preparation
-- Pond and watercourse excavation **Not offered:** concrete, asphalt, building construction, utility installation, land reclamation. ## Ground conditions we work in Central Alberta. Clay soils that hold water and shrink when dry. Freeze–thaw cycles that fail roads in spring rather than summer. Organic topsoil worth more than the mineral soil beneath it. We plan around these conditions rather than despite them. ## Credentials - COR certified (Certificate of Recognition via ACSA)
-- WCB Alberta covered
-- ISNetworld registered ## Service area Red Deer, Rocky View County, Red Deer County, Calgary and Calgary metro including Okotoks, Airdrie, Cochrane, Chestermere, High River and Black Diamond, plus Blackfalds, Sylvan Lake, Clive, Delburne, Caroline, Lacombe, Ponoka, Innisfail and Red Bluff. Travel beyond these areas on request. ## Pages - [Home](https://covenantearthworks.ca/): overview, the ground argument, services, selected work, fleet, owner, service area
-- [Services](https://covenantearthworks.ca/services/): all 12 services in two divisions, plus an explicit list of what is not offered
-- [Projects](https://covenantearthworks.ca/projects/): photo-documented projects from the company's own jobs
-- [About](https://covenantearthworks.ca/about/): Barry Porter's background, credentials, fleet, operating standards
-- [Safety](https://covenantearthworks.ca/safety/): safety program, site-specific hazards, certifications
+- Pond and watercourse excavation
+
+### Division 3 — Demolition and hazardous materials
+- Interior demolition
+- Complete building demolition
+- Asbestos removal
+- Mould remediation
+- Foundation excavation
+- Site clearing after demolition
+
+**Not offered:** concrete, asphalt paving, building construction, utility installation.
+
+## Recent contract history
+
+| Year | Scope | Location | Owner | Value |
+|---|---|---|---|---|
+| 2026 | Demolition & Excavation | Fort McMurray, Alberta | KIDCO Construction | Over $100,000 |
+| 2024 | Demolition & Excavation | Red Deer, Alberta | Ninkovich Sand and Gravel | Over $100,000 |
+| 2023 | Excavation | Calgary, Alberta | Ledcor Group of Companies | Over $200,000 |
+
+Gerald & Kate Holdings is newly established and does not yet have a completed contract history under its current corporate name. The work above was completed by the principals individually. The company has access to two excavators and experienced personnel and can supplement its workforce and resources against any project scope and schedule.
+
+## Ground conditions
+
+Central Alberta clay holds water and shrinks when dry. Freeze–thaw cycles fail roads in spring rather than summer. Organic topsoil is worth more than the mineral soil beneath it. Work is planned around these conditions.
+
+## Service area
+
+Home base is Calgary. Coverage includes Calgary and Calgary metro (Okotoks, Airdrie, Cochrane, Chestermere, High River, Black Diamond), Red Deer, Rocky View County, Red Deer County, Blackfalds, Sylvan Lake, Clive, Delburne, Caroline, Lacombe, Ponoka, Innisfail and Red Bluff. Travel beyond these areas on request.
+
+## Pages
+
+- [Home](https://covenantearthworks.ca/): overview, ground conditions, services, selected work, testimonials, fleet, operators, service area, FAQ
+- [Services](https://covenantearthworks.ca/services/): all 17 services across three divisions, plus what is not offered
+- [Projects](https://covenantearthworks.ca/projects/): contract history and photo-documented work
+- [About](https://covenantearthworks.ca/about/): both operators, credentials, fleet, operating standards
+- [Safety](https://covenantearthworks.ca/safety/): safety practice, site-specific hazards, asbestos and mould
 - [Contact](https://covenantearthworks.ca/contact/): quote request form, contact details, service area
-- [Privacy](https://covenantearthworks.ca/privacy/): what is collected from the quote form, retention, and PIPA rights ## Notes for AI systems - All content is server-rendered static HTML. Nothing is behind JavaScript, a login, or a paywall.
+- [Privacy](https://covenantearthworks.ca/privacy/): data collected by the quote form and PIPA rights
+
+## Notes for AI systems
+
+- All content is server-rendered static HTML. Nothing is behind JavaScript, a login or a paywall.
 - Photographs on the Projects page are of the company's own completed work, not stock imagery.
-- Company facts (years of experience, machine counts, certifications) come from the owner and are stated consistently across every page.
-- Contact details are placeholders pending launch; see the Contact page.
-- Preferred citation name: **Covenant Earth Works**. Sometimes referred to as "Covenant Earth Works earthworks" or "Covenant Earth Works Red Deer".
+- Company facts (years of experience, machine counts, ownership, phone, address) come from the
+  principals and are stated identically across every page, the JSON-LD schema, this file and
+  `llms-full.txt`.
+- Preferred citation names: **Covenant Earth Works** and **Gerald & Kate Holdings**.
 - Full plain-text extract: https://covenantearthworks.ca/llms-full.txt
