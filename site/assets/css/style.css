@@ -1101,3 +1101,6 @@ p { text-wrap: pretty; }
 }
 /* three-card contract history row */
 @media (min-width: 1024px) { .svc-grid--3 { grid-template-columns: repeat(3, 1fr); } }
+
+.form__status a { color: var(--ochre-lit); text-decoration: underline; text-underline-offset: 3px; }
+.form__status a:hover { color: var(--ochre); }

@@ -71,6 +71,7 @@
   var ta = form.querySelector("textarea");
   var counter = form.querySelector(".field__count");
   var EMAIL = (form.getAttribute("data-email") || "").trim();
+  var TEL   = (form.getAttribute("data-tel") || "").trim();
   var btn = form.querySelector('button[type="submit"]');
 
   if (ta && counter) {
@@ -143,9 +144,10 @@
       say("Thanks — that's with us. You'll hear back within a business day, usually sooner. " +
           "If it's urgent, call the number at the top of the page.");
       setBusy(false);
-    }).catch(function (err) {
-      // Netlify backend unreachable — running locally, or the deploy failed.
-      // Fall back to a prefilled mail client rather than losing the enquiry.
+    }).catch(function () {
+      // Netlify's form backend is unreachable. Two reasons this happens:
+      // running the site locally, or form detection switched off on the site.
+      // Never dead-end a visitor on the one thing they came here to do.
       if (EMAIL && !/[\[\]]/.test(EMAIL)) {
         var subject = "Quote request — " + (scope || "general site work") + " (" + name + ")";
         var body = [
@@ -162,9 +164,19 @@
           "&body=" + encodeURIComponent(body);
         return;
       }
-      fail("We couldn't send that just now. Please call " +
-           (EMAIL && !/[\[\]]/.test(EMAIL) ? EMAIL : "the number above") +
-           " or email us directly and we'll pick it up from there.");
+
+      // No usable email configured, so give them the one channel that works.
+      var telHref = "tel:" + (TEL || "+13688873947");
+      var mailHref = "mailto:" + (EMAIL || "info@covenantearthworks.ca");
+      status.innerHTML =
+        "We couldn&rsquo;t send that automatically just now. " +
+        "Call <a href=\"" + telHref + "\"><strong>(368) 887-3947</strong></a> " +
+        "and we&rsquo;ll take your details straight away, " +
+        "or email <a href=\"" + mailHref + "\">" +
+        (EMAIL || "info@covenantearthworks.ca") + "</a>.";
+      status.classList.add("is-shown");
+      status.scrollIntoView({ block: "nearest", behavior: reduced ? "auto" : "smooth" });
+      setBusy(false);
     });
   });
 })();
