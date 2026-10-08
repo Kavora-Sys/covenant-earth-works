@@ -1,0 +1,10 @@
+# Cloudflare Pages redirects
+# Extensionless URLs are canonical. Anything with a .html extension
+# redirects to its clean equivalent rather than serving a duplicate.
+/services.html   /services    301
+/projects.html   /projects    301
+/about.html      /about       301
+/safety.html     /safety      301
+/contact.html    /contact     301
+/privacy.html    /privacy     301
+/home            /            301
