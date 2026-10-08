@@ -70,7 +70,7 @@
   var status = document.getElementById("form-status");
   var ta = form.querySelector("textarea");
   var counter = form.querySelector(".field__count");
-  var EMAIL = (form.getAttribute("data-email") || "").trim();
+  var EMAIL = (form.getAttribute("data-email") || "info@covenantearthworks.ca").trim();
   var TEL   = (form.getAttribute("data-tel") || "").trim();
   var btn = form.querySelector('button[type="submit"]');
 
