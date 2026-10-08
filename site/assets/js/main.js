@@ -125,58 +125,42 @@
     // Netlify expects urlencoded POST to the site root.
     var payload = new URLSearchParams();
     payload.append("form-name", "quote-request");
-    payload.append("name", name);
-    payload.append("company", (data.get("company") || "").toString());
-    payload.append("phone", phone);
-    payload.append("email", email);
-    payload.append("scope", scope);
-    payload.append("location", location);
-    payload.append("notes", notes);
+    // Hand the enquiry to the visitor's own mail client, pre-filled and addressed
+    // to the business inbox. No backend, no API key, works on any host.
+    var subject = "Quote request \u2014 " + (scope || "general site work") +
+                  (name ? " (" + name + ")" : "");
+    var body = [
+      "Project enquiry via covenantearthworks.ca",
+      "",
+      "Name:      " + (name || "\u2014"),
+      "Company:   " + ((data.get("company") || "").toString().trim() || "\u2014"),
+      "Phone:     " + (phone || "\u2014"),
+      "Email:     " + (email || "\u2014"),
+      "Scope:     " + (scope || "\u2014"),
+      "Location:  " + (location || "\u2014"),
+      "",
+      "Details:",
+      notes || "\u2014",
+      "",
+      "--",
+      "Sent from the quote form at covenantearthworks.ca"
+    ].join("\n");
 
-    fetch("/", {
-      method: "POST",
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: payload.toString()
-    }).then(function (res) {
-      if (!res.ok) throw new Error("HTTP " + res.status);
-      form.reset();
-      if (ta && counter) counter.textContent = "0 / 1200";
-      say("Thanks — that's with us. You'll hear back within a business day, usually sooner. " +
-          "If it's urgent, call the number at the top of the page.");
-      setBusy(false);
-    }).catch(function () {
-      // Netlify's form backend is unreachable. Two reasons this happens:
-      // running the site locally, or form detection switched off on the site.
-      // Never dead-end a visitor on the one thing they came here to do.
-      if (EMAIL && !/[\[\]]/.test(EMAIL)) {
-        var subject = "Quote request — " + (scope || "general site work") + " (" + name + ")";
-        var body = [
-          "Project enquiry via covenantearthworks.ca", "",
-          "Name:      " + name,
-          "Phone:     " + (phone || "—"),
-          "Email:     " + (email || "—"),
-          "Scope:     " + (scope || "—"),
-          "Location:  " + (location || "—"), "",
-          "Details:", notes || "—"
-        ].join("\n");
-        window.location.href = "mailto:" + EMAIL +
-          "?subject=" + encodeURIComponent(subject) +
-          "&body=" + encodeURIComponent(body);
-        return;
-      }
+    var href = "mailto:" + EMAIL +
+      "?subject=" + encodeURIComponent(subject) +
+      "&body=" + encodeURIComponent(body);
 
-      // No usable email configured, so give them the one channel that works.
-      var telHref = "tel:" + (TEL || "+13688873947");
-      var mailHref = "mailto:" + (EMAIL || "info@covenantearthworks.ca");
-      status.innerHTML =
-        "We couldn&rsquo;t send that automatically just now. " +
-        "Call <a href=\"" + telHref + "\"><strong>(368) 887-3947</strong></a> " +
-        "and we&rsquo;ll take your details straight away, " +
-        "or email <a href=\"" + mailHref + "\">" +
-        (EMAIL || "info@covenantearthworks.ca") + "</a>.";
-      status.classList.add("is-shown");
-      status.scrollIntoView({ block: "nearest", behavior: reduced ? "auto" : "smooth" });
-      setBusy(false);
-    });
+    form.reset();
+    if (ta && counter) counter.textContent = "0 / 1200";
+    setBusy(false);
+
+    window.location.href = href;
+    status.innerHTML =
+      "Your email app should have opened with the details filled in \u2014 just hit send. " +
+      "If nothing happened, email us at " +
+      "<a href=\"" + href.split("?")[0] + "\">" + EMAIL + "</a> " +
+      "or call <a href=\"tel:" + (TEL || "+13688873947") + "\"><strong>(368) 887-3947</strong></a>.";
+    status.classList.add("is-shown");
+    status.scrollIntoView({ block: "nearest", behavior: reduced ? "auto" : "smooth" });
   });
 })();
