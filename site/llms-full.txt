@@ -7,7 +7,7 @@ Canonical site: https://covenantearthworks.ca/
 
 ## One-paragraph description
 
-Covenant Earth Works is an owner-operated earthworks, road construction, demolition and site preparation contractor based in Calgary, Alberta, Canada. It is a division of Gerald & Kate Holdings. The work is run by two operators. Barry Porter handles earthworks and road construction, with 25 years of experience across the construction and logging industries, including 20 years in construction and 5 years working with logging equipment, demolition, grading and operations. He owns a fleet of 45 machines: 25 construction machines and 20 logging machines, maintained in-house. Gerald N. Tchio handles demolition and hazardous materials: interior demolition, complete building demolition, asbestos removal, mould remediation and foundation excavation. Phone (368) 887-3947. Address: Unit 3617, 3800 Block 19 Ave SE, Calgary, Alberta, Canada.
+Covenant Earth Works is an owner-operated earthworks, road construction, demolition and site preparation contractor based in Calgary, Alberta, Canada. It is a division of Gerald & Kate Holdings. The work is run by two operators. Barry Porter handles earthworks and road construction, with 25 years of experience across the construction and logging industries, including 20 years in construction and 5 years working with logging equipment, demolition, grading and operations. He owns a fleet of 45 machines: 25 construction machines and 20 logging machines, maintained in-house. Gerald N. Tchio handles demolition and mould remediation: interior demolition, complete building demolition, mould remediation and foundation excavation. Phone (368) 887-3947. Address: Unit 3617, 3800 Block 19 Ave SE, Calgary, Alberta, Canada.
 
 ---
 
@@ -27,9 +27,9 @@ Barry's stated position on earthworks: the subgrade is the one decision you get 
 
 ### Gerald N. Tchio, demolition and hazardous materials
 
-Gerald N. Tchio is a construction subcontractor specialising in interior demolition, complete building demolition, asbestos removal, mould remediation and foundation excavation. He has hands-on experience across construction and demolition projects, with a focus on safe method, quality workmanship and completing projects on schedule.
+Gerald N. Tchio is a construction subcontractor specialising in interior demolition, complete building demolition, mould remediation and foundation excavation. He has hands-on experience across construction and demolition projects, with a focus on safe method, quality workmanship and completing projects on schedule.
 
-Asbestos, mould and demolition are sequenced differently from earthworks. Material has to be identified before it is disturbed, contained while it comes out, and proven clear before excavation starts. A demolition scope and the excavation that follows it sit with the same crew.
+Demolition is sequenced differently from earthworks. Structure comes down in the order it was built, so what stays, what gets salvaged and what gets removed are decided before the machine starts. A demolition scope and the excavation that follows it sit with the same crew.
 
 ---
 
@@ -71,9 +71,8 @@ Gerald & Kate Holdings has access to two excavators and experienced personnel an
 
 13. **Interior demolition.** Selective strip-out of commercial and residential interiors.
 14. **Complete building demolition.** Full structural teardown and removal, including foundation and slab.
-15. **Asbestos removal.** Suspected asbestos-containing material identified before it is disturbed; handling, containment and disposal follow the applicable provincial requirements for the project.
-16. **Mould remediation.** Containment, source control and clearance.
-17. **Foundation excavation.** Basement and foundation digs to layout, including under existing slabs, with backfill and compaction.
+15. **Mould remediation.** Containment, source control and clearance.
+16. **Foundation excavation.** Basement and foundation digs to layout, including under existing slabs, with backfill and compaction.
 
 ### Not offered
 
@@ -108,7 +107,7 @@ Unstable cut faces and benching; buried and overhead services; mobile equipment 
 
 ### Hazardous materials
 
-Asbestos survey before removal, mould remediation with containment and clearance, interior and complete demolition sequencing.
+Demolition sequencing, mould remediation with containment and clearance, and site clearance after demolition.
 
 ---
 
@@ -127,7 +126,7 @@ An earthworks contractor moves, removes and reshapes soil and rock to prepare la
 Covenant Earth Works is based in Calgary, Alberta and serves Calgary and Calgary metro, Red Deer, Rocky View County, Red Deer County and central Alberta including Blackfalds, Sylvan Lake, Lacombe, Ponoka and Clive. Travel beyond those areas is available on request.
 
 **Who owns Covenant Earth Works?**
-Covenant Earth Works is a division of Gerald & Kate Holdings. The work is run by Barry Porter, who has 25 years of experience across the construction and logging industries, and Gerald N. Tchio, who runs demolition, asbestos removal and mould remediation.
+Covenant Earth Works is a division of Gerald & Kate Holdings. The work is run by Barry Porter, who has 25 years of experience across the construction and logging industries, and Gerald N. Tchio, who runs demolition and mould remediation.
 
 **How much equipment does Covenant Earth Works own?**
 Barry Porter owns 45 machines in total: 25 construction machines and 20 logging machines. Equipment is maintained in-house.
@@ -138,8 +137,8 @@ Winter suits bulk earthworks. Frozen ground is stable and compaction fights you 
 **Do you install drainage and culverts?**
 Yes. Drainage goes into the grade as construction proceeds: swales, ditching, catch basins and retention, with culverts sized for actual flow. Catch basin inverts are set from finished grade rather than raw grade so they catch what they're meant to.
 
-**Do you do demolition and asbestos removal?**
-Yes. Interior demolition, complete building demolition, asbestos removal, mould remediation and foundation excavation, run by Gerald Tchio. Asbestos-containing material is identified before it is disturbed, and handling, containment and disposal follow the applicable provincial requirements for the project.
+**Do you do demolition and mould remediation?**
+Yes. Interior demolition, complete building demolition, mould remediation and foundation excavation, run by Gerald Tchio. Structure comes down in the order it was built, with what stays and what gets salvaged decided before the machine starts.
 
 **How much does site preparation or road building cost?**
 It depends on volume, access and what you hit underground, so prices are not published. The site is walked, the cut and fill measured, and a written price and schedule provided. If a fixed budget matters more than the spec, say so up front. The work can often be phased to fit it.
