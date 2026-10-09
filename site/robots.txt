@@ -1,5 +1,5 @@
 # Covenant Earth Works — https://covenantearthworks.ca/
-# Owner-operated earthworks and road construction, Red Deer, Alberta.
+# Owner-operated earthworks, road construction and demolition. Calgary, Alberta.
 
 User-agent: *
 Allow: /
