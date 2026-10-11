@@ -13,7 +13,6 @@ files for `[` to find them all, or find-and-replace the tokens below.
 | Token | Where | Notes |
 |---|---|---|
 | `[PHONE]` | all 6 pages | Appears 3× per page. Also fix every `tel:0000000000` — search for `tel:0`. |
-| `[EMAIL]` | footer × 6, `contact.html` form, meta descriptions | Search `[EMAIL]`. |
 | `[ADDRESS]` | `contact.html` | Street address. |
 | `[HOURS]` | `contact.html` | Mon–Fri hours. |
 | `[PROJECT NAME]` | `projects.html` × 6 | Real project names, or delete the chip and the clause around it. |
